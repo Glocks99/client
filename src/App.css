@@ -1,0 +1,147 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f9;
+}
+
+.App {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  background: white;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+header h1 {
+  color: #333;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+section h2 {
+  color: #555;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 5px;
+}
+
+input,
+select,
+button {
+  display: block;
+  margin: 10px 0;
+  padding: 10px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+button {
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #0056b3;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f9f9f9;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+}
+
+strong {
+  color: #007bff;
+}
+
+button {
+  background: #007bff;
+  padding: 10px 10px;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  color: white;
+}
+
+button:hover {
+  background: #0159b6;
+}
+
+.auth-form {
+  max-width: 400px;
+  margin: 50px auto;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.auth-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.auth-form input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.auth-form button {
+  width: 100%;
+  padding: 10px;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.auth-form button:hover {
+  background: #0056b3;
+}
+
+.auth-form p {
+  text-align: center;
+}
+
+.auth-form a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.auth-form a:hover {
+  text-decoration: underline;
+}
+table {
+  width: 100%;
+  border-collapse: collapse; 
+}
+th, td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+  }
